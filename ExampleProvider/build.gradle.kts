@@ -4,14 +4,14 @@ dependencies {
     implementation("androidx.recyclerview:recyclerview:1.2.1")
 }
 // use an integer for version numbers
-version = -1
+version = 0
 
 
 cloudstream {
     // All of these properties are optional, you can safely remove them
 
-    description = "Lorem ipsum"
-    authors = listOf("Cloudburst")
+    description = "Plugin pour voirAnime"
+    authors = listOf("Ccbingo24")
 
     /**
     * Status int as the following:
@@ -20,15 +20,15 @@ cloudstream {
     * 2: Slow
     * 3: Beta only
     * */
-    status = 1
+    status = 3
 
-    tvTypes = listOf("Movie")
+    tvTypes = listOf("Anime")
 
     requiresResources = true
-    language = "en"
+    language = "fr"
 
     // random cc logo i found
-    iconUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png"
+    iconUrl = "https://static.gameloop.com/img/32abfe027f30de7fb1f866e09c8a759a.png?imageMogr2/thumbnail/172.8x172.8/format/webp"
 }
 
 android {
